@@ -1,0 +1,3 @@
+1. No, a doesn't change value
+2. Yes, the value of b does change
+3. Yes, they differ because for the first one, it changes the value of someval which is the value of a, not actually a, so a doesn't change. B does change because it points to the actual value of the dictionary
