@@ -1,0 +1,2 @@
+1. You can create child classes that get all the capabilities of parent classes and also add more
+2. You can factor out common capabilities between child classes and make a parent class
