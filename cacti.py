@@ -1,5 +1,6 @@
 def cacti_number(func):
     def wrapper(plot):
+
         rows = len(plot)
         cols = len(plot[0])
         counter = 0
@@ -18,5 +19,6 @@ def cacti_number(func):
                         temp[i][j] = 1
                         counter += 1
 
+        func(plot)
         return counter
     return wrapper
